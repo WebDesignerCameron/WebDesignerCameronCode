@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>
+            WebDesignerCameron Code
+        </title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <p class="big">
+                WebDesignerCameron Code
+            </p>
+            <p class="grey">
+                <strong>
+                    The best option in
+                    Manchester!
+                </strong>
+                <br>
+                Backend Computer Programmer
+                hire, pay per hour.
+            </p>
+            <br>
+            <hr>
+            <br>
+            <p>
+                Quick find: 
+            </p>
+            <nav class="top-nav">
+                <a href="#l">
+                    Logo
+                </a>
+                <a href="#a">
+                    Introduction
+                </a>
+                <a href="#bottom">
+                    Info
+                </a>
+                <a href="#b">
+                    Send an order
+                </a>
+                <a href="#c">
+                    Price
+                </a>
+            </nav>
+        </header>
+        <main>
+            <!--Logo-->
+            <section class="logo" id="l">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+                    <defs>
+                        <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#0f172a" />
+                            <stop offset="100%" stop-color="#1e293b" />
+                        </linearGradient>
+                
+                        <linearGradient id="codeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#0369a1" />
+                        </linearGradient>
+                
+                        <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+                            <stop offset="0%" stop-color="#38bdf8" />
+                            <stop offset="100%" stop-color="#34d399" />
+                        </linearGradient>
+                    
+                        <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+                            <feGaussianBlur stdDeviation="8" result="blur" />
+                            <feComposite in="SourceGraphic" in2="blur" operator="over" />
+                        </filter>
+                    </defs>
+                
+                    <rect width="100%" height="100%" fill="url(#bgGrad)" rx="16" />
+                
+                    <g transform="translate(140, 250)" filter="url(#glow)">
+                        <path d="M -40,-80 C -40,-80 -70,-80 -70,-50 C -70,-20 -90,-10 -90,0 C -90,10 -70,20 -70,50 C -70,80 -40,80 -40,80 L -40,65 C -55,65 -55,50 -55,35 C -55,15 -75,10 -75,0 C -75,-10 -55,-15 -55,-35 C -55,-50 -55,-65 -40,-65 Z" fill="url(#codeGrad)" />
+                    
+                        <path d="M 40,-80 C 40,-80 70,-80 70,-50 C 70,-20 90,-10 90,0 C 90,10 70,20 70,50 C 70,80 40,80 40,80 L 40,65 C 55,65 55,50 55,35 C 55,15 75,10 75,0 C 75,-10 55,-15 55,-35 C 55,-50 55,-65 40,-65 Z" fill="url(#codeGrad)" />
+                    
+                        <line x1="-20" y1="50" x2="20" y2="-50" stroke="url(#accentGrad)" stroke-width="12" stroke-linecap="round" />
+                    </g>
+                
+                    <g transform="translate(290, 0)">
+                        <text x="0" y="220" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="32" font-weight="800" fill="#ffffff" letter-spacing="1">WebDesignerCameron <tspan x="0" dy="1.2em"></tspan>Code</text>
+                    
+                        <text x="0" y="275" font-family="'Segoe UI', -apple-system, Roboto, sans-serif" font-size="22" font-weight="600" fill="#34d399" letter-spacing="4" text-transform="uppercase">BACKEND CODE</text>
+                    </g>
+                </svg>
+            </section>
+            <br>
+            <!-- A: Introduction -->
+            <section class="hero" id="a">
+                <h2>Introduction</h2>
+                <p>
+                    WebDesignerCameron Code
+                    is a company for people
+                    who want an affordable,
+                    high-quality programming
+                    service. 
+                </p>
+                <article class="send">
+                    <a href="#b">
+                        Place an Order
+                    </a>
+                </article>
+            </section>
+            <br>
+            <!-- B: Submissions -->
+            <section class="sub" id="b">
+                <form action="https://formspree.io/f/xykqlwjz" method="POST" enctype="multipart/form-data" id="orderForm">
+                    <h2>
+                        Send an order
+                    </h2>
+                    <article class="card">
+                        <input name="Order" placeholder="Details">
+                        <br>
+                        <input name="Email" placeholder="Your Email">
+                        <br>
+                        <button type="submit">
+                            Request
+                        </button>
+                    </article>
+                </form>
+            </section>
+            <br>
+            <!-- C: Price -->
+            <section class="price" id="c">
+                <h2>Price</h2>
+                <article class="card">
+                    <p>
+                        £10 per hour.
+                    </p>
+                    <br>
+                    <p>
+                        Be ready - your
+                        order might not be
+                        accepted if it is
+                        of high level. 
+                    </p>
+                </article>
+            </section>
+        </main>
+        <footer id="bottom">
+            <nav class="foot-nav">
+                <a href="https://pages.github.com">
+                    Hosted with GitHub Pages
+                </a>
+                <a href="https://github.com/WebDesignerCameron">
+                    <sup>Made by</sup> WebDesignerCameron
+                </a>
+            </nav>
+        </footer>
+    </body>
+</html>

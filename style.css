@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Consolas", sans-serif;
+}
+h2 {
+    color: #555fff;
+}
+header {
+    margin-bottom: 1pc;
+    padding: 20px;
+    background: #202020;
+    color: white;
+    border-radius: 3px;
+    outline: 1px solid white;
+}
+.big {
+    font-size: 1.5em;
+    font-weight: 800;
+    margin-bottom: 5px;
+    margin-top: 3px;
+}
+.grey {
+    color: grey;
+}
+.grey strong {
+    color: white;
+}
+.top-nav {
+    display: flex;
+}
+.top-nav a {
+    flex: auto;
+    color: grey;
+    text-decoration: none;
+    font-size: 0.7em;
+}
+svg {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 1pc;
+}
+.hero {
+    background: linear-gradient(135deg, #5555ff, #ff00ff, #ff5555);
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+.hero h2 {
+    color: white;
+}
+.send {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.send a {
+    color: white;
+    text-decoration: none;
+}
+.send a:visited {
+    color: white;
+    text-decoration: none;
+}
+.send a:hover {
+    color: white;
+    text-decoration: none;
+}
+.sub {
+    text-align: center;
+}
+.sub input {
+    margin: 10px;
+}
+button, .send {
+    background: #ff6b6b;
+    color: white;
+}
+button {
+    padding: 5px;
+}
+.card {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+.price {
+    text-align: center;
+}
+footer {
+    background: #202020;
+    color: white;
+    outline: 1px solid white;
+    padding: 10px;
+    border-radius: 3px;
+    margin-top: 25px;
+}
+.foot-nav {
+    display: flex;
+}
+.foot-nav a {
+    color: #787878;
+    flex: auto;
+    font-size: 0.5em;
+    text-decoration: none;
+}
